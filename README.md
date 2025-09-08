@@ -43,16 +43,14 @@ This Chrome extension turns any YouTube video into an **interactive knowledge ag
 ```bash
 git clone https://github.com/your-username/chat-with-youtube.git
 cd chat-with-youtube
+```
 
 ### 2. Backend Setup
 ```bash
 cd backend
 pip install -r requirements.txt
 uvicorn main:app --reload
-
-# 🎥 YouTube Video Chatbot – Chrome Extension
-
----
+```
 
 ## 3. Extension Setup
 
@@ -75,7 +73,7 @@ uvicorn main:app --reload
 
 ## 🔮 Future-Work
 
-- [ ] Cross-video Q&A  
-- [ ] Smarter clip navigation  
-- [ ] Support for podcasts & recorded meetings  
-- [ ] Cloud deployment for multi-user access  
+- Cross-video Q&A  
+- Smarter clip navigation  
+- Support for podcasts & recorded meetings  
+- Cloud deployment for multi-user access  
